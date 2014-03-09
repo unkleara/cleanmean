@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+  head
+    link(href="img/favicon.ico", rel="shortcut icon", type="image/x-icon")
+    link(rel="stylesheet", href="/styles/css/style.css")
+  body(ng-app="app")
+    article
+      section.content
+        block main-content
+        li
+          - var jadeMessageCopy = ' Entering final descent phase.';
+          strong JADE:
+          span= jadeMessageCopy
+        li
+          strong MONGOOSE:
+          span  #{mongoMessageCopy}
+        li
+          strong NODE:
+          span  Roger, We copy you down, Eagle.
+        include scripts

@@ -1,0 +1,15 @@
+{
+  "name": "cleanmean",
+  "version": "0.0.0",
+  "authors": [
+    "Ara Hacobian <unkleara@gmail.com>"
+  ],
+  "description": "custom starter using node, express, mongoose and angular.",
+  "license": "BSD-2-Clause",
+  "private": true,
+  "dependencies": {
+  "angular": "~1.2.14",
+  "angular-resource": "~1.2.14",
+  "angular-route": "~1.2.14"
+  }
+}
